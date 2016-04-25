@@ -1,0 +1,588 @@
+/*
+COLOR 1 #300030 1 dark
+COLOR 2 #480048 1 semidark
+COLOR 3 #601848 1 light
+COLOR 4 #c04848 2 black
+COLOR 5 #f07241 2 light
+*/
+.bg-color1 {
+  background: #300030;
+}
+.bg-color2 {
+  background: #480048;
+}
+.bg-color3 {
+  background: #601848;
+}
+.bg-color4 {
+  background: #c04848;
+}
+.bg-color5 {
+  background: #f07241;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+   font-family: 'Roboto', sans-serif;
+   color: #666;
+       font-weight: 300;
+
+}
+
+a {
+  color: #480048;
+}
+.full-sep a {
+  color: white;
+}
+a:hover, .full-sep a:hover {
+  color: #f07241;
+  text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+    color: inherit;
+}
+.article {
+  font-size: 16px;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.col-xs-x5,
+.col-sm-x5,
+.col-md-x5,
+.col-lg-x5 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+[go-to-details] {
+  cursor:pointer;
+}
+.col-xs-x5 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-x5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-x5 {
+        width: 20%;
+        float: left;
+    
+        box-sizing: border-box;
+}
+}
+@media (min-width: 1200px) {
+    .col-lg-x5 {
+        width: 20%;
+        float: left;
+    }
+}
+.btn {
+  text-transform: uppercase;
+}
+.btn-primary, a.btn-primary {
+    background:#f07241;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover, a:hover.btn-primary:hover {
+    background: #c04848;
+    color: white;
+}
+#header .navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative;
+    border: none;
+}
+.btn-primary .glyphicon {
+    color: white;
+}
+#landing-page #header {
+    background: #300030;
+    height: 872px;
+    width: 100%;
+    display: block;
+}
+#landing-page #logo {
+    overflow: hidden;
+    text-align: center;
+}
+#landing-page #logo img {
+    width: 210px;
+}
+#single-page #logo img {
+    width: 150px;
+    margin: 10px 0;
+}
+#logo > figcaption {
+    display: none;
+}
+#landing-page #header h2 {
+   color: rgba(255, 255, 255, .4);
+   font-size: 16px;
+   text-align: center;
+   text-transform: uppercase;
+}
+#single-page #header h2 {
+   color: #300030;
+   padding-top: 20px;
+   font-weight: 400;
+   font-size: 16px;
+   text-transform: uppercase;
+}
+#single-page #logo {
+    overflow: hidden;
+    float: left;
+}
+#header .navbar.navbar-inverse {
+    background: transparent;
+}
+#header .navbar-nav {
+    padding: 0;
+}
+#single-page #header .navbar-inverse { 
+  background: #300030;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#header .navbar-inverse .navbar-nav a {
+    margin: 0px -10px;
+    border-left: 1px solid #300030;
+    padding: 17px 25px;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    box-sizing: border-box;
+    background: #480048;
+}
+#header .navbar-inverse .navbar-nav li:first-child a { 
+    border-left: none;
+}
+#header .navbar-inverse .navbar-nav .two-lanes a {
+    padding: 8px 25px;
+}
+#header .navbar-inverse .navbar-nav>.active>a {
+    background: #480048;
+    border: none;
+}
+#header .navbar-inverse .navbar-nav>li>a:hover, #header .navbar-inverse .navbar-nav>li>a:focus,#header .navbar-inverse .navbar-nav>li.active>a {
+    background: #f07241;
+    border: none;
+}
+.brand-bar {
+    background: rgb(240, 114, 65);
+    padding-bottom: 20px;
+}
+.brand-bar ul {
+    list-style: none;
+    padding: 0 15px;
+    margin: auto;
+}
+.brand-bar li {
+    display: inline-block;
+    background: rgba(0,0,0,.2);
+    border-radius: 100%;
+    height: 100px;
+    width: 9%;
+    margin: 10px 1.1% 10px 0;
+    overflow: visible;
+    position: relative;
+}
+.brand-bar li:last-child {
+  margin-right: 0;
+}
+.brand-bar li a, .widget-ads .adDealership ul.brands li span, .dealership-brands ul li a {
+  width: 65%;
+  height: 65%;
+  margin: 16% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+}
+.brand-bar li a {
+  opacity: .5;
+  overflow: hidden;    line-height: 1000px;
+}
+.brand-bar li.active a, .brand-bar li a:hover, .brand-bar li.active .dealership, .brand-bar li:hover .dealership {
+    opacity: 1;
+}
+
+.main h2 {
+    color: #300030;
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.main hr {
+  margin: 30px auto;
+  width: 150px;
+  border: 0;
+  border-top: 2px solid #300030;
+}
+.catalogo .widget-car-preview {
+    border-right: 1px solid rgba(240, 114, 65,.1);
+    height: 370px;
+    margin-bottom: 15px;
+}
+.catalogo .widget-car-preview:nth-child(4n+4), .catalogo .widget-car-preview:last-child {
+    border-right: none;
+}
+.catalogo article h2 a {
+  color: white;
+  background: #c04848;
+  display: inline;
+  font-size: 18px;
+  padding: 2px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.catalogo article h2 {
+  text-align: lefT;
+}
+
+.catalogo article figure {
+  background: lightgray;
+  height: 180px;
+  width: 100%;
+}
+.catalogo article figure img {
+  width: 100%;
+  height: 100%;
+  color: gray;
+  text-align: center;
+}
+.catalogo article p {
+  color: #480048;
+}
+.catalogo {
+  padding: 50px 0 80px 0;
+}
+.catalogo article img.brand, .catalogo article img.dealership, .brand-bar li .dealership {
+  position: absolute;
+  width: 36px;
+  top: 140px;
+  right: 25px;
+}
+.catalogo article img.dealership {
+  border-radius: 100%;
+  border: 1px solid rgba(255,255,255,.5);
+  top: 10px;
+}
+div#footer {
+    background: rgb(48, 0, 48);
+    height: 180px;
+    position: relative;
+}
+
+div#footer ul {
+    padding:0;
+    list-style:none;
+    bottom: 50px;
+    position: absolute;
+}
+div#footer li {
+    float: left;
+    border-right: 1px solid rgba(255,255,255,.5);
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.8);
+}
+div#footer li:last-child {
+    border: none;
+}
+div#footer li>a {
+    color: rgba(255,255,255,.8);
+}
+div#footer li>a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+div#footer img {
+    padding:0;
+    list-style:none;
+    margin-top: 70px;
+    float: right;
+    width: 120px;
+    opacity: .8;
+}
+div#footer img:hover { 
+opacity: 1;
+}
+.full-sep {
+    background: rgb(48, 0, 48);
+}
+.full-sep h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 0;
+}
+
+.basic-form .success, .basic-form .error {
+    display: none;
+}
+.basic-form .form-control {
+    margin-bottom: 20px;
+}
+
+.section-pages-car .full-sep h2 img {
+    width: 60px;
+}
+.section-pages-car .full-sep h2 {
+    padding: 5px 0;
+    margin: 15px 0;
+}
+.widget-car-details figure, .widget-car-details figure img {
+  width: 100%;
+}
+.widget-car-details .plan-details {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: right;
+  padding: 10px 20px;
+  background-color: #300030;
+  color: #FFFFFF;
+  margin: 0;
+
+}
+.widget-car-details h3 {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: #F07241;
+  color: #FFFFFF;
+}
+.widget-car-details .car-description {
+  font-size: 17px;
+  padding: 30px 20px 40px 20px;
+  background-color: #eee;
+}
+.widget-car-details .car-description h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 400;
+  color: rgb(48, 0, 48);
+  border-bottom: 1px solid rgba(240, 114, 65,.2);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.widget-car-details .car-description p {
+  padding: 10px 20px;
+}
+.widget-car-contact h3 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin: 0;
+}
+.widget-car-contact p {
+    padding: 15px 0;
+    min-height: 120px;
+    font-weight: 300;
+}
+
+.modal-body {
+  font-size: 20px;
+  line-height: 30px;
+  padding: 25px;
+  background-color: #601848;
+  color: #FFFFFF;
+}
+.modal-header {
+  background-color: #480048;
+  border: none;
+}
+.modal-content {
+ border: none;
+}
+.modal-header h4 {
+  padding: 2px 20px;;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+.modal-body p { 
+  color: white;
+  margin: 20px 0;
+}
+.modal-body { 
+  padding: 40px 20px;
+}
+.modal-body h3 { 
+  color: #f07241;
+  margin-top: 0;
+}
+@media (min-width: 768px) {
+#modal-location .modal-dialog {
+  width: 600px;
+  margin: 100px auto;
+}
+}
+.widget-ads img {
+  width: 960px;
+  cursor: pointer;
+  border: rgb(149, 125, 149) 1px solid;
+}
+.widget-ads {
+  text-align: center;
+  padding: 20px 0;
+  background: rgb(72, 0, 72);
+}
+.form-control.file-caption.kv-fileinput-caption {
+    margin-bottom: 0;
+}
+
+button.btn.btn-default.kv-fileinput-upload.fileinput-upload-button {
+    display: none;
+}
+
+.btn-default {
+    border: none;
+}
+
+.widget-ads .adDealership {
+  background: #eeeeee;
+  border: rgb(48, 0, 48) 1px solid;
+  height: 120px;
+  width: 900px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.dealership-logo .figure img, .widget-ads .adDealership .figure img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 100%;
+  border: 0;
+} 
+.widget-ads .adDealership .figure {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  float: left;
+}
+.dealership-logo .figure {
+  width: 180px;
+  height: 180px;
+  float: left;
+}
+.widget-ads .adDealership h2 {
+  float: left;
+  font-size: 64px;
+  font-family: 'Arial';
+  font-weight: 700;
+  margin: 10px 0px;
+  padding: 16px 0;
+  height: 100%;
+
+}
+.widget-ads .adDealership h2 a {
+  color: rgb(11, 12, 16);
+}
+.widget-ads .adDealership h2 a:hover {
+  text-decoration: none;
+}
+.dealership-brands {
+  float: right;
+  margin-top: -82px;
+}
+.widget-ads .adDealership ul.brands li {
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 1);
+  position: relative;
+  margin: 30px 5px;
+  list-style: none;
+}
+.widget-ads .adDealership ul.brands li span {
+  filter: invert(60%);
+  -webkit-filter: invert(60%);
+}
+.widget-ads .adDealership ul.brands  {
+  float: right;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+.widget-ads .adDealership::after {
+  position: absolute;
+  background: rgba(72, 0, 72, 1);
+  display: block;
+  color: white;
+  padding: 0px 7px;
+  content: 'Anuncio Publicitario';
+  bottom: 0;
+  right: 0;
+  font-size: 11px;
+  border-top-left-radius: 3px;
+}
+.dealership-brands ul.brands li {
+  background: rgba(0,0,0,.2);
+  width: 60px;
+  height: 60px;
+  float: left;
+  list-style: none;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+
+.dealership-logo .figure {
+  margin-right: 40px;
+}
+.brand-bar li .dealership {
+position: absolute;
+top: 105px;
+text-align: center;
+width: 80%;
+margin: 0 auto;
+left: 0;
+right: 0;
+color: white;
+font-size: 11px;
+pointer-events: none;
+opacity: .5;
+}
+#single-page #header .container {
+  position: relative;
+}
+#single-page #header .right-header {
+  right: 0;
+  text-align: right;
+  position: absolute;
+}
+#fixed-brands-bar.fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.change-location {
+  cursor: pointer;
+}
